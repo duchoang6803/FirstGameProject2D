@@ -1,0 +1,1648 @@
+fileFormatVersion: 2
+guid: 6818549f763372348b14347854951952
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: SmokeFX Lite 3A_Frame_0
+    originalName: 
+    pivot: {x: 0, y: 0.74814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 898
+      width: 138
+      height: 135
+    spriteID: 900b72a43f98fff4e9c13f50eb33b1a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 898}
+  - name: SmokeFX Lite 3A_Frame_1
+    originalName: 
+    pivot: {x: 0.027210884, y: 0.73758864}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 1527
+      width: 147
+      height: 141
+    spriteID: 2a69cead72077c94ea12d1c8afb33535
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 1527}
+  - name: SmokeFX Lite 3A_Frame_2
+    originalName: 
+    pivot: {x: 0.0397351, y: 0.7361111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 159
+      width: 151
+      height: 144
+    spriteID: 68e001e69a224374cbcff99a662ec853
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 159}
+  - name: SmokeFX Lite 3A_Frame_3
+    originalName: 
+    pivot: {x: 0.051612902, y: 0.7346939}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 784
+      width: 155
+      height: 147
+    spriteID: 2ef9909b8c0bff84dafad28aa7c4979a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 784}
+  - name: SmokeFX Lite 3A_Frame_4
+    originalName: 
+    pivot: {x: 0.05732484, y: 0.7297298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1417
+      width: 157
+      height: 148
+    spriteID: e3465db3a61237d42a4fbcb495558b39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1417}
+  - name: SmokeFX Lite 3A_Frame_5
+    originalName: 
+    pivot: {x: 0.05696203, y: 0.7315436}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 158
+      height: 149
+    spriteID: f7375522041f46d4ca4db9cfe3c7f5ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: SmokeFX Lite 3A_Frame_7
+    originalName: 
+    pivot: {x: 0.46376812, y: 0.74814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 1041
+      width: 138
+      height: 135
+    spriteID: 6a316d4a2fef0c44ba0461e224f790e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 1041}
+  - name: SmokeFX Lite 3A_Frame_8
+    originalName: 
+    pivot: {x: 0.46258503, y: 0.73758864}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 1676
+      width: 147
+      height: 141
+    spriteID: cfa1d1ca8869fb847a50735577a7b47c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 1676}
+  - name: SmokeFX Lite 3A_Frame_9
+    originalName: 
+    pivot: {x: 0.46357617, y: 0.7361111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 311
+      width: 151
+      height: 144
+    spriteID: 05db4bc1b176f874286ddbbed4923455
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 311}
+  - name: SmokeFX Lite 3A_Frame_10
+    originalName: 
+    pivot: {x: 0.46451613, y: 0.7346939}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 939
+      width: 155
+      height: 147
+    spriteID: 30fa4a94eebc4194fbc70e3c3cd6180d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 939}
+  - name: SmokeFX Lite 3A_Frame_11
+    originalName: 
+    pivot: {x: 0.46496814, y: 0.7297298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1573
+      width: 157
+      height: 148
+    spriteID: b836605dc595b934cb86da70481ce445
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1573}
+  - name: SmokeFX Lite 3A_Frame_12
+    originalName: 
+    pivot: {x: 0.4620253, y: 0.7315436}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 161
+      width: 158
+      height: 149
+    spriteID: 7e679a0d0efaa8544a0384f25160ab22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 161}
+  - name: SmokeFX Lite 3A_Frame_14
+    originalName: 
+    pivot: {x: 0.92753625, y: 0.74814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 1184
+      width: 138
+      height: 135
+    spriteID: 3a962539145497d469fc141b5f524763
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 1184}
+  - name: SmokeFX Lite 3A_Frame_15
+    originalName: 
+    pivot: {x: 0.8979592, y: 0.73758864}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 1825
+      width: 147
+      height: 141
+    spriteID: c2f7a9c904b3576449137ddac6dffbf8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 1825}
+  - name: SmokeFX Lite 3A_Frame_16
+    originalName: 
+    pivot: {x: 0.8874172, y: 0.7361111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 463
+      width: 151
+      height: 144
+    spriteID: 548a5b55f2545ee4e99a12597c73b5ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 463}
+  - name: SmokeFX Lite 3A_Frame_17
+    originalName: 
+    pivot: {x: 0.87741935, y: 0.7346939}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 1094
+      width: 155
+      height: 147
+    spriteID: c42d1064b2190234f915f9e3c6cbcf7d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 1094}
+  - name: SmokeFX Lite 3A_Frame_18
+    originalName: 
+    pivot: {x: 0.87261146, y: 0.7297298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1729
+      width: 157
+      height: 148
+    spriteID: dadcf909619fa8e4ba3596fa3e8aa6fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1729}
+  - name: SmokeFX Lite 3A_Frame_19
+    originalName: 
+    pivot: {x: 0.8670886, y: 0.7315436}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 318
+      width: 158
+      height: 149
+    spriteID: 9358d54dc48e1eb42b295b997cef414b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 318}
+  - name: SmokeFX Lite 3A_Frame_21
+    originalName: 
+    pivot: {x: 0, y: 0.28148147}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 1327
+      width: 138
+      height: 135
+    spriteID: 84734b481e4263a4c8c489556f4d24c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 1327}
+  - name: SmokeFX Lite 3A_Frame_22
+    originalName: 
+    pivot: {x: 0.027210884, y: 0.29078013}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 4
+      width: 147
+      height: 141
+    spriteID: 778f99ab2cb84de4bad08a9478f1518c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 4}
+  - name: SmokeFX Lite 3A_Frame_23
+    originalName: 
+    pivot: {x: 0.0397351, y: 0.2986111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 615
+      width: 151
+      height: 144
+    spriteID: 1aec6afa7d1079b45ba57776d86afcda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 615}
+  - name: SmokeFX Lite 3A_Frame_24
+    originalName: 
+    pivot: {x: 0.051612902, y: 0.30612245}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 1249
+      width: 155
+      height: 147
+    spriteID: 4b4d2c27a7973624495a4ac2baf0ccca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 1249}
+  - name: SmokeFX Lite 3A_Frame_25
+    originalName: 
+    pivot: {x: 0.05732484, y: 0.30405405}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1885
+      width: 157
+      height: 148
+    spriteID: 39fb0a41361f5b64282dacf6c7403195
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1885}
+  - name: SmokeFX Lite 3A_Frame_26
+    originalName: 
+    pivot: {x: 0.05696203, y: 0.30872482}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 475
+      width: 158
+      height: 149
+    spriteID: 2fc2b1013f6d49a43addfdd9c508340d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 475}
+  - name: SmokeFX Lite 3A_Frame_28
+    originalName: 
+    pivot: {x: 0.46376812, y: 0.28148147}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 1470
+      width: 138
+      height: 135
+    spriteID: 035bfde119ebc5d4db2122a21bdc0823
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 1470}
+  - name: SmokeFX Lite 3A_Frame_29
+    originalName: 
+    pivot: {x: 0.46258503, y: 0.29078013}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 153
+      width: 147
+      height: 141
+    spriteID: 4c74deeabff0acc48ac8b1c14056956c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 153}
+  - name: SmokeFX Lite 3A_Frame_30
+    originalName: 
+    pivot: {x: 0.46357617, y: 0.2986111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 767
+      width: 151
+      height: 144
+    spriteID: 8f63deeee2d27ee4aa5a3ab5f5011aa9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 767}
+  - name: SmokeFX Lite 3A_Frame_31
+    originalName: 
+    pivot: {x: 0.46451613, y: 0.30612245}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 1404
+      width: 155
+      height: 147
+    spriteID: a3487adb46b8fb9448554ec331f0857a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 1404}
+  - name: SmokeFX Lite 3A_Frame_32
+    originalName: 
+    pivot: {x: 0.46496814, y: 0.30405405}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 4
+      width: 157
+      height: 148
+    spriteID: c97c8699f8b7f5348aed866b93dd7890
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 4}
+  - name: SmokeFX Lite 3A_Frame_33
+    originalName: 
+    pivot: {x: 0.4620253, y: 0.30872482}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 632
+      width: 158
+      height: 149
+    spriteID: 741ac372e83904f4dbfc9098df8b8d30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 632}
+  - name: SmokeFX Lite 3A_Frame_35
+    originalName: 
+    pivot: {x: 0.92753625, y: 0.28148147}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 1613
+      width: 138
+      height: 135
+    spriteID: 32d99eba8193f12498c3ff31712b43bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 1613}
+  - name: SmokeFX Lite 3A_Frame_36
+    originalName: 
+    pivot: {x: 0.8979592, y: 0.29078013}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 302
+      width: 147
+      height: 141
+    spriteID: 8ca19c95b90c9204f9a12c059a2e1184
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 302}
+  - name: SmokeFX Lite 3A_Frame_37
+    originalName: 
+    pivot: {x: 0.8874172, y: 0.2986111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 919
+      width: 151
+      height: 144
+    spriteID: 4215bbb815cb29049947d094f57d5120
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 919}
+  - name: SmokeFX Lite 3A_Frame_38
+    originalName: 
+    pivot: {x: 0.87741935, y: 0.30612245}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 1559
+      width: 155
+      height: 147
+    spriteID: 7d38a8494893b1d468c398a8edc40973
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 1559}
+  - name: SmokeFX Lite 3A_Frame_39
+    originalName: 
+    pivot: {x: 0.87261146, y: 0.30405405}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 160
+      width: 157
+      height: 148
+    spriteID: ff8c1fee577d98c4cad14850baa51ec4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 160}
+  - name: SmokeFX Lite 3A_Frame_40
+    originalName: 
+    pivot: {x: 0.8670886, y: 0.30872482}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 789
+      width: 158
+      height: 149
+    spriteID: 18fe3c8b05f34354b91b78ae5c6cf848
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 789}
+  - name: SmokeFX Lite 3A_Frame_42
+    originalName: 
+    pivot: {x: 0.007246377, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 1756
+      width: 138
+      height: 135
+    spriteID: 212f1d70d92f25b4e8ed0ccaa75519e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 1756}
+  - name: SmokeFX Lite 3A_Frame_43
+    originalName: 
+    pivot: {x: 0.034013607, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 451
+      width: 147
+      height: 141
+    spriteID: e4f17443e9a151d49be3773bf6669c74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 451}
+  - name: SmokeFX Lite 3A_Frame_44
+    originalName: 
+    pivot: {x: 0.046357617, y: -0.15277778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 1071
+      width: 151
+      height: 144
+    spriteID: 41a2c342695a5b54bb7b6c156e5f3792
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 1071}
+  - name: SmokeFX Lite 3A_Frame_45
+    originalName: 
+    pivot: {x: 0.058064517, y: -0.13605443}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 1714
+      width: 155
+      height: 147
+    spriteID: 86d00aeadaa101a4ba71fe2932c6379b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 1714}
+  - name: SmokeFX Lite 3A_Frame_46
+    originalName: 
+    pivot: {x: 0.06369427, y: -0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 316
+      width: 157
+      height: 148
+    spriteID: 3f89f00e9301d8a4caba9a5419a92c30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 316}
+  - name: SmokeFX Lite 3A_Frame_47
+    originalName: 
+    pivot: {x: 0.06329114, y: -0.12751678}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 946
+      width: 158
+      height: 149
+    spriteID: 4d6d57b317e9ba84787fc533678e3256
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 946}
+  - name: SmokeFX Lite 3A_Frame_49
+    originalName: 
+    pivot: {x: 0.45652175, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 1899
+      width: 138
+      height: 135
+    spriteID: 6368a8a74a9a16d42985b87104ab2edd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 1899}
+  - name: SmokeFX Lite 3A_Frame_50
+    originalName: 
+    pivot: {x: 0.4557823, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 600
+      width: 147
+      height: 141
+    spriteID: 84199c35bac107741a40cbc7cdc2cd94
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 600}
+  - name: SmokeFX Lite 3A_Frame_51
+    originalName: 
+    pivot: {x: 0.45695364, y: -0.15277778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 1223
+      width: 151
+      height: 144
+    spriteID: db1cdb34183276347b3cc89f90db2229
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 1223}
+  - name: SmokeFX Lite 3A_Frame_52
+    originalName: 
+    pivot: {x: 0.4580645, y: -0.13605443}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 1869
+      width: 155
+      height: 147
+    spriteID: 5ebd214f0841a9d4691ee4c16cee58bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 1869}
+  - name: SmokeFX Lite 3A_Frame_53
+    originalName: 
+    pivot: {x: 0.45859873, y: -0.13513514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 472
+      width: 157
+      height: 148
+    spriteID: efc0b23e3cb1e414f97c2027f40090ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 472}
+  - name: SmokeFX Lite 3A_Frame_54
+    originalName: 
+    pivot: {x: 0.45569623, y: -0.12751678}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1103
+      width: 158
+      height: 149
+    spriteID: 8b69c07568bce0a4e9f21baa7ac0e241
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1103}
+  - name: SmokeFX Lite 3A_Frame_56
+    originalName: 
+    pivot: {x: 0.92753625, y: -0.19259259}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 4
+      width: 138
+      height: 135
+    spriteID: 1ab8d88184b8ae146936a8ad4e999444
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 653, y: 4}
+  - name: SmokeFX Lite 3A_Frame_57
+    originalName: 
+    pivot: {x: 0.8979592, y: -0.16312057}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 498
+      y: 749
+      width: 147
+      height: 141
+    spriteID: d6cf9c84fc03ddd4aad3c362e0084056
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 498, y: 749}
+  - name: SmokeFX Lite 3A_Frame_58
+    originalName: 
+    pivot: {x: 0.8874172, y: -0.14583333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 1375
+      width: 151
+      height: 144
+    spriteID: 0c9dc76ec447c0e4a87140e73a62f76d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 1375}
+  - name: SmokeFX Lite 3A_Frame_59
+    originalName: 
+    pivot: {x: 0.87741935, y: -0.1292517}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 4
+      width: 155
+      height: 147
+    spriteID: 411fc3c84b92a9e4b9557a47adadf074
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 4}
+  - name: SmokeFX Lite 3A_Frame_60
+    originalName: 
+    pivot: {x: 0.87261146, y: -0.12837838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 628
+      width: 157
+      height: 148
+    spriteID: f4e3366ec80f22b42a67ffb9cda947d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 628}
+  - name: SmokeFX Lite 3A_Frame_61
+    originalName: 
+    pivot: {x: 0.8670886, y: -0.12080537}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1260
+      width: 158
+      height: 149
+    spriteID: e03d45505758a4b429c6cb4a7a2477dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1260}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1757809677
+    name: SmokeFX Lite 3A
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: SmokeFX Lite 3A_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 32
+        y: -101
+        width: 138
+        height: 135
+      spriteId: 900b72a43f98fff4e9c13f50eb33b1a5
+    - name: SmokeFX Lite 3A_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 28
+        y: -104
+        width: 147
+        height: 141
+      spriteId: 2a69cead72077c94ea12d1c8afb33535
+    - name: SmokeFX Lite 3A_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 26
+        y: -106
+        width: 151
+        height: 144
+      spriteId: 68e001e69a224374cbcff99a662ec853
+    - name: SmokeFX Lite 3A_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 24
+        y: -108
+        width: 155
+        height: 147
+      spriteId: 2ef9909b8c0bff84dafad28aa7c4979a
+    - name: SmokeFX Lite 3A_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 23
+        y: -108
+        width: 157
+        height: 148
+      spriteId: e3465db3a61237d42a4fbcb495558b39
+    - name: SmokeFX Lite 3A_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 23
+        y: -109
+        width: 158
+        height: 149
+      spriteId: f7375522041f46d4ca4db9cfe3c7f5ca
+    - name: SmokeFX Lite 3A_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: -32
+        y: -101
+        width: 138
+        height: 135
+      spriteId: 6a316d4a2fef0c44ba0461e224f790e2
+    - name: SmokeFX Lite 3A_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: -36
+        y: -104
+        width: 147
+        height: 141
+      spriteId: cfa1d1ca8869fb847a50735577a7b47c
+    - name: SmokeFX Lite 3A_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: -38
+        y: -106
+        width: 151
+        height: 144
+      spriteId: 05db4bc1b176f874286ddbbed4923455
+    - name: SmokeFX Lite 3A_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: -40
+        y: -108
+        width: 155
+        height: 147
+      spriteId: 30fa4a94eebc4194fbc70e3c3cd6180d
+    - name: SmokeFX Lite 3A_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: -41
+        y: -108
+        width: 157
+        height: 148
+      spriteId: b836605dc595b934cb86da70481ce445
+    - name: SmokeFX Lite 3A_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: -41
+        y: -109
+        width: 158
+        height: 149
+      spriteId: 7e679a0d0efaa8544a0384f25160ab22
+    - name: SmokeFX Lite 3A_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: -96
+        y: -101
+        width: 138
+        height: 135
+      spriteId: 3a962539145497d469fc141b5f524763
+    - name: SmokeFX Lite 3A_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: -100
+        y: -104
+        width: 147
+        height: 141
+      spriteId: c2f7a9c904b3576449137ddac6dffbf8
+    - name: SmokeFX Lite 3A_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: -102
+        y: -106
+        width: 151
+        height: 144
+      spriteId: 548a5b55f2545ee4e99a12597c73b5ed
+    - name: SmokeFX Lite 3A_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: -104
+        y: -108
+        width: 155
+        height: 147
+      spriteId: c42d1064b2190234f915f9e3c6cbcf7d
+    - name: SmokeFX Lite 3A_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: -105
+        y: -108
+        width: 157
+        height: 148
+      spriteId: dadcf909619fa8e4ba3596fa3e8aa6fd
+    - name: SmokeFX Lite 3A_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: -105
+        y: -109
+        width: 158
+        height: 149
+      spriteId: 9358d54dc48e1eb42b295b997cef414b
+    - name: SmokeFX Lite 3A_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 32
+        y: -38
+        width: 138
+        height: 135
+      spriteId: 84734b481e4263a4c8c489556f4d24c2
+    - name: SmokeFX Lite 3A_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 28
+        y: -41
+        width: 147
+        height: 141
+      spriteId: 778f99ab2cb84de4bad08a9478f1518c
+    - name: SmokeFX Lite 3A_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 26
+        y: -43
+        width: 151
+        height: 144
+      spriteId: 1aec6afa7d1079b45ba57776d86afcda
+    - name: SmokeFX Lite 3A_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 24
+        y: -45
+        width: 155
+        height: 147
+      spriteId: 4b4d2c27a7973624495a4ac2baf0ccca
+    - name: SmokeFX Lite 3A_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 23
+        y: -45
+        width: 157
+        height: 148
+      spriteId: 39fb0a41361f5b64282dacf6c7403195
+    - name: SmokeFX Lite 3A_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 23
+        y: -46
+        width: 158
+        height: 149
+      spriteId: 2fc2b1013f6d49a43addfdd9c508340d
+    - name: SmokeFX Lite 3A_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: -32
+        y: -38
+        width: 138
+        height: 135
+      spriteId: 035bfde119ebc5d4db2122a21bdc0823
+    - name: SmokeFX Lite 3A_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: -36
+        y: -41
+        width: 147
+        height: 141
+      spriteId: 4c74deeabff0acc48ac8b1c14056956c
+    - name: SmokeFX Lite 3A_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: -38
+        y: -43
+        width: 151
+        height: 144
+      spriteId: 8f63deeee2d27ee4aa5a3ab5f5011aa9
+    - name: SmokeFX Lite 3A_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: -40
+        y: -45
+        width: 155
+        height: 147
+      spriteId: a3487adb46b8fb9448554ec331f0857a
+    - name: SmokeFX Lite 3A_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: -41
+        y: -45
+        width: 157
+        height: 148
+      spriteId: c97c8699f8b7f5348aed866b93dd7890
+    - name: SmokeFX Lite 3A_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: -41
+        y: -46
+        width: 158
+        height: 149
+      spriteId: 741ac372e83904f4dbfc9098df8b8d30
+    - name: SmokeFX Lite 3A_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: -96
+        y: -38
+        width: 138
+        height: 135
+      spriteId: 32d99eba8193f12498c3ff31712b43bb
+    - name: SmokeFX Lite 3A_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: -100
+        y: -41
+        width: 147
+        height: 141
+      spriteId: 8ca19c95b90c9204f9a12c059a2e1184
+    - name: SmokeFX Lite 3A_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: -102
+        y: -43
+        width: 151
+        height: 144
+      spriteId: 4215bbb815cb29049947d094f57d5120
+    - name: SmokeFX Lite 3A_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: -104
+        y: -45
+        width: 155
+        height: 147
+      spriteId: 7d38a8494893b1d468c398a8edc40973
+    - name: SmokeFX Lite 3A_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: -105
+        y: -45
+        width: 157
+        height: 148
+      spriteId: ff8c1fee577d98c4cad14850baa51ec4
+    - name: SmokeFX Lite 3A_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: -105
+        y: -46
+        width: 158
+        height: 149
+      spriteId: 18fe3c8b05f34354b91b78ae5c6cf848
+    - name: SmokeFX Lite 3A_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 31
+        y: 27
+        width: 138
+        height: 135
+      spriteId: 212f1d70d92f25b4e8ed0ccaa75519e9
+    - name: SmokeFX Lite 3A_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 27
+        y: 24
+        width: 147
+        height: 141
+      spriteId: e4f17443e9a151d49be3773bf6669c74
+    - name: SmokeFX Lite 3A_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 25
+        y: 22
+        width: 151
+        height: 144
+      spriteId: 41a2c342695a5b54bb7b6c156e5f3792
+    - name: SmokeFX Lite 3A_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 23
+        y: 20
+        width: 155
+        height: 147
+      spriteId: 86d00aeadaa101a4ba71fe2932c6379b
+    - name: SmokeFX Lite 3A_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 22
+        y: 20
+        width: 157
+        height: 148
+      spriteId: 3f89f00e9301d8a4caba9a5419a92c30
+    - name: SmokeFX Lite 3A_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 22
+        y: 19
+        width: 158
+        height: 149
+      spriteId: 4d6d57b317e9ba84787fc533678e3256
+    - name: SmokeFX Lite 3A_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: -31
+        y: 27
+        width: 138
+        height: 135
+      spriteId: 6368a8a74a9a16d42985b87104ab2edd
+    - name: SmokeFX Lite 3A_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: -35
+        y: 24
+        width: 147
+        height: 141
+      spriteId: 84199c35bac107741a40cbc7cdc2cd94
+    - name: SmokeFX Lite 3A_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: -37
+        y: 22
+        width: 151
+        height: 144
+      spriteId: db1cdb34183276347b3cc89f90db2229
+    - name: SmokeFX Lite 3A_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: -39
+        y: 20
+        width: 155
+        height: 147
+      spriteId: 5ebd214f0841a9d4691ee4c16cee58bf
+    - name: SmokeFX Lite 3A_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: -40
+        y: 20
+        width: 157
+        height: 148
+      spriteId: efc0b23e3cb1e414f97c2027f40090ef
+    - name: SmokeFX Lite 3A_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: -40
+        y: 19
+        width: 158
+        height: 149
+      spriteId: 8b69c07568bce0a4e9f21baa7ac0e241
+    - name: SmokeFX Lite 3A_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: -96
+        y: 26
+        width: 138
+        height: 135
+      spriteId: 1ab8d88184b8ae146936a8ad4e999444
+    - name: SmokeFX Lite 3A_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: -100
+        y: 23
+        width: 147
+        height: 141
+      spriteId: d6cf9c84fc03ddd4aad3c362e0084056
+    - name: SmokeFX Lite 3A_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: -102
+        y: 21
+        width: 151
+        height: 144
+      spriteId: 0c9dc76ec447c0e4a87140e73a62f76d
+    - name: SmokeFX Lite 3A_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: -104
+        y: 19
+        width: 155
+        height: 147
+      spriteId: 411fc3c84b92a9e4b9557a47adadf074
+    - name: SmokeFX Lite 3A_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: -105
+        y: 19
+        width: 157
+        height: 148
+      spriteId: f4e3366ec80f22b42a67ffb9cda947d0
+    - name: SmokeFX Lite 3A_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: -105
+        y: 18
+        width: 158
+        height: 149
+      spriteId: e03d45505758a4b429c6cb4a7a2477dc
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
