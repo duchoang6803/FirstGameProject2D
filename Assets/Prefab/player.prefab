@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1723654182051057121}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.201, y: 0, z: 0}
+  m_LocalPosition: {x: 0.3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -138,6 +138,7 @@ MonoBehaviour:
   WhatisGround:
     serializedVersion: 2
     m_Bits: 64
+  jumpExtra: 0
   movementSpeed: 11
   JumpForce: 15
   airDragMultiPlier: 0.95
@@ -149,6 +150,7 @@ MonoBehaviour:
   dashCoolDown: 2.5
   dashFirstTime: 0.5
   knockbackDuration: 0.3
+  jumpExtraDuration: 1
   combat: {fileID: 6012744108995160610}
   knockbackSpeed: {x: 5, y: 3}
 --- !u!114 &6012744108995160610
@@ -164,10 +166,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noOfClick: 0
+  currentHealth: 0
   isPlayerDead: 0
-  attack1Radius: 0.8
+  attack1Radius: 1
   attack1Damage: 10
-  maxHealth: 100
   attack1HitBoxPos: {fileID: 6519095944207135626}
   whatisDamageable:
     serializedVersion: 2

@@ -852,7 +852,7 @@ Transform:
   m_GameObject: {fileID: 430229349}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0025137712, y: -0, z: -0, w: 0.9999969}
-  m_LocalPosition: {x: 0.48, y: -3.35, z: 0.01}
+  m_LocalPosition: {x: 0.77, y: -2.9, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -884,7 +884,7 @@ Transform:
   m_GameObject: {fileID: 461435405}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.58, y: 0.18, z: 0}
+  m_LocalPosition: {x: 6.21, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -900,31 +900,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 461435405}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb01deb5c5e009541b3aa78914f51d97, type: 3}
+  m_Script: {fileID: 11500000, guid: 1eaa42c61a4903a44870f6ec754dd270, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundCheck: {fileID: 430229350}
+  entityData: {fileID: 11400000, guid: 6e0f3f8b20b14f945b7942e51c2f7837, type: 2}
   wallCheck: {fileID: 1442240809}
-  checkTouchDamage: {fileID: 2086575420}
-  hitParticle: {fileID: 5871580434983917175, guid: b343fc09516c7514ea0a211895875b90, type: 3}
-  alive: {fileID: 1881246434}
-  groundCheckDistance: 0.5
-  wallCheckDistance: 0.5
-  movementSpeed: 2
-  knockbackSpeedX: 3
-  knockbackSpeedY: 7
-  maxHealth: 70
-  knockbackDuration: 1
-  touchDamageCoolDown: 0.5
-  checkTouchDamageWidth: 0.5
-  checkTouchDamageHeigh: 2.5
-  whatisGround:
-    serializedVersion: 2
-    m_Bits: 64
-  whatIsPlayer:
-    serializedVersion: 2
-    m_Bits: 512
-  touchDamage: 20
+  ledgeCheck: {fileID: 430229350}
+  idleStateData: {fileID: 11400000, guid: 2737cefb0bc108f4dabd73be722752d3, type: 2}
+  moveStateData: {fileID: 11400000, guid: 2bd13fdae9bff1f42b81db10eb698d1b, type: 2}
 --- !u!1 &497149024
 GameObject:
   m_ObjectHideFlags: 0
@@ -2469,7 +2452,7 @@ Transform:
   m_GameObject: {fileID: 1442240808}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.53, y: -0.869, z: 0}
+  m_LocalPosition: {x: 0.79, y: -0.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5760,7 +5743,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1881246435}
   - component: {fileID: 1881246439}
-  - component: {fileID: 1881246438}
   - component: {fileID: 1881246437}
   - component: {fileID: 1881246436}
   m_Layer: 7
@@ -5779,7 +5761,7 @@ Transform:
   m_GameObject: {fileID: 1881246434}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.29, z: 0}
+  m_LocalPosition: {x: -0.24, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1.025, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5823,7 +5805,7 @@ BoxCollider2D:
   m_Offset: {x: -0.122235775, y: -1.3761336}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.49763602, y: 0.5147755}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 9.090909, y: 7.2727275}
     newSize: {x: 6.25, y: 5}
     adaptiveTilingThreshold: 0.5
@@ -5854,33 +5836,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!50 &1881246438
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1881246434}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 8
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 4
 --- !u!212 &1881246439
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5922,7 +5877,7 @@ SpriteRenderer:
   m_SortingLayerID: 530205903
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6b211d1fca9e36f4bb25ac0e97b888ae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 68b275315fcfba94bbf5fb1da63adefa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6082,9 +6037,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fe07ec8a5453ab42bbf73edf79aed95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respondPoint: {fileID: 391230426}
+  respawnPoint: {fileID: 391230426}
   player: {fileID: 7761257263941208397, guid: 76caf66b27b8ed14b92209d6d6d2517e, type: 3}
   respondTime: 5
+  isRespawn: 0
 --- !u!4 &1925707234
 Transform:
   m_ObjectHideFlags: 0
@@ -6485,8 +6441,8 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1432918227543316031, guid: 76caf66b27b8ed14b92209d6d6d2517e, type: 3}
-      propertyPath: jumpExtraDuration
-      value: 1
+      propertyPath: doubleJumpPower
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4303565092129769610, guid: 76caf66b27b8ed14b92209d6d6d2517e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6529,17 +6485,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6012744108995160610, guid: 76caf66b27b8ed14b92209d6d6d2517e, type: 3}
-      propertyPath: attack1Damage
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6012744108995160610, guid: 76caf66b27b8ed14b92209d6d6d2517e, type: 3}
-      propertyPath: attack1Radius
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6519095944207135626, guid: 76caf66b27b8ed14b92209d6d6d2517e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.3
-      objectReference: {fileID: 0}
+      propertyPath: playerClone
+      value: 
+      objectReference: {fileID: 7761257263941208397, guid: 76caf66b27b8ed14b92209d6d6d2517e, type: 3}
     - target: {fileID: 7761257263941208397, guid: 76caf66b27b8ed14b92209d6d6d2517e, type: 3}
       propertyPath: m_Name
       value: player

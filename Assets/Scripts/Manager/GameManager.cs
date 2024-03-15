@@ -7,44 +7,49 @@ using Cinemachine;
 
 public class GameManager : MonoBehaviour
 {
+
+    public Transform respawnPoint;
+
     [SerializeField]
-    private Transform respondPoint;
+
+    public GameObject player;
     [SerializeField]
-    private GameObject player;
-    [SerializeField]
+
     private float respondTime;
 
     private CinemachineVirtualCamera cinemachine;
+    private HealthBar healthBar;
     private PlayerCombatController _player;
 
     private float respondStartTime;
 
-    private bool isRespond;
+    public bool isRespawn;
 
     private void Start()
     {
         cinemachine = GameObject.Find("Player Camera").GetComponent<CinemachineVirtualCamera>();
+        _player = GameObject.Find("player").GetComponent<PlayerCombatController>();
     }
 
     private void Update()
     {
-        CheckRespond();
+        CheckRespawn();
     }
-    public void Respond()
+    public void Respawn()
     {
         respondStartTime = Time.time; // 15
-        isRespond = true;
+        isRespawn = true;
 
     }
 
-    private void CheckRespond()
+    private void CheckRespawn()
     {
         bool respond =  Time.time >= respondStartTime + respondTime; // 15 + 4
-        if(respond && isRespond)
+        if(respond && isRespawn)
         {
-            var respondPlayer = Instantiate(player, respondPoint);
-            cinemachine.m_Follow = respondPlayer.transform;
-            isRespond=false;
+            var respawnPlayer = Instantiate(player, respawnPoint);
+            cinemachine.m_Follow = respawnPlayer.transform;
+            isRespawn=false;
         }
     }
 }

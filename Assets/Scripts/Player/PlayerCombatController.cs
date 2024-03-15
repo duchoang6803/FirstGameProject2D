@@ -1,9 +1,5 @@
-using JetBrains.Annotations;
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerCombatController : MonoBehaviour, IDamagable
@@ -11,6 +7,7 @@ public class PlayerCombatController : MonoBehaviour, IDamagable
     public int noOfClick;
     private int direction;
     public int currentHealth;
+    public int newHealth;
     public const int maxHealth = 100;
     private int amount = 10;
 
@@ -47,6 +44,7 @@ public class PlayerCombatController : MonoBehaviour, IDamagable
     private GameManager gamemanager;
     private HealthBar healthbar;
     public Action OnHealthChanged;
+    public GameObject playerClone;
 
 
 
@@ -56,8 +54,9 @@ public class PlayerCombatController : MonoBehaviour, IDamagable
         demonaxe = FindObjectOfType<DemonAxeController>();
         player = FindObjectOfType<PlayerController>();
         currentHealth = maxHealth;
+        newHealth = maxHealth;
         gamemanager = GameObject.Find("GameManager").GetComponent<GameManager>();
-        healthbar = GetComponent<HealthBar>();
+
     }
 
     private void Update()
@@ -146,7 +145,7 @@ public class PlayerCombatController : MonoBehaviour, IDamagable
         {
             return;
         }
-        else
+        else if(damageInfo.DamageAmount > 0 && !player.GetDashingState())
         {
             currentHealth -= damageInfo.DamageAmount;
             OnHealthChanged?.Invoke();
@@ -181,9 +180,12 @@ public class PlayerCombatController : MonoBehaviour, IDamagable
         timePlayerDead = Time.time;
         anim.SetTrigger("playerDead");
         yield return new WaitForSeconds(2.05f);
-        isPlayerDead = false;
-        gameObject.SetActive(false);
-        gamemanager.Respond();
+        Destroy(gameObject);
+        gamemanager.Respawn();
+        if (gamemanager.isRespawn)
+        {
+            OnHealthChanged?.Invoke();
+        }
     }
 
     private void OnDrawGizmos()

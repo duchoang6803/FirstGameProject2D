@@ -8,6 +8,7 @@ using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEditor.Tilemaps;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour
 {
@@ -51,6 +52,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float knockbackDuration;
     [SerializeField]
+    private float doubleJumpPower;
+    [SerializeField]
     private int jumpExtraDuration = 2;
 
 
@@ -58,10 +61,11 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
     private bool canJump;
     private bool isFacingRight;
-    private bool isDashing;
+    private bool isDashing = false;
     private bool canMove;
     private bool canFlip;
     private bool isKnockBack;
+    private bool isDoubleJump;
 
 
     public PlayerCombatController combat;
@@ -137,11 +141,13 @@ public class PlayerController : MonoBehaviour
         }
         else if (Input.GetButtonDown("Jump") && jumpExtra == 0)
         {
+            isDoubleJump = true;
             rb.velocity = new Vector2(rb.velocity.x, JumpForce * 1.5f);
             jumpExtra--;
             if (jumpExtra < 0)
             {
                 canJump = false;
+                isDoubleJump = false;
             }
         }
 
@@ -167,6 +173,7 @@ public class PlayerController : MonoBehaviour
     {
         if (dashTimeLeft > 0)
         {
+            isDashing = true;
             canMove = false;
             canFlip = false;
             rb.velocity = new Vector2(dashSpeed * facingDirection, rb.velocity.y);
@@ -327,6 +334,10 @@ public class PlayerController : MonoBehaviour
         {
             rb.velocity = Vector2.zero;
         }
+        if(!isGrounded && movementInputDirection != 0)
+        {
+            rb.velocity = new Vector2(movementInputDirection * doubleJumpPower, rb.velocity.y);
+        }
         if (combat.isPlayerDead)
         {
             rb.velocity = Vector2.zero;
@@ -338,6 +349,12 @@ public class PlayerController : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+    }
+    // leo t??ng
+
+    private void Climb()
+    {
+
     }
 
 }
