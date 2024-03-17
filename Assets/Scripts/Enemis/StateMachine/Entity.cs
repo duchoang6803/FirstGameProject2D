@@ -17,7 +17,7 @@ public class Entity : MonoBehaviour
     [SerializeField]
     private Transform wallCheck;
     [SerializeField]
-    private Transform ledgeCheck;
+    private Transform groundCheck;
 
     public virtual void Start()
     {
@@ -49,9 +49,9 @@ public class Entity : MonoBehaviour
         return Physics2D.Raycast(wallCheck.position, aliveGameObject.transform.right, entityData.wallCheckDistance, entityData.whatIsGround);
     }
 
-    public virtual bool CheckLedge()
+    public virtual bool CheckGround()
     {
-        return Physics2D.Raycast(ledgeCheck.position, Vector2.down, entityData.ledgeCheckDistance, entityData.whatIsGround);
+        return Physics2D.Raycast(groundCheck.position, Vector2.down, entityData.groundCheckDistance, entityData.whatIsGround);
     }
 
     public virtual void SetFlip()
@@ -63,7 +63,7 @@ public class Entity : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.DrawLine(wallCheck.position, wallCheck.position + (Vector3)(Vector2.right * facingDirection * entityData.wallCheckDistance));
-        Gizmos.DrawLine(ledgeCheck.position, ledgeCheck.position + (Vector3)(Vector2.down * entityData.ledgeCheckDistance));
+        Gizmos.DrawLine(groundCheck.position, groundCheck.position + (Vector3)(Vector2.down * entityData.groundCheckDistance));
     }
 
 

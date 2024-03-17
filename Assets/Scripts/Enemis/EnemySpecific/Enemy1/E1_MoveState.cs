@@ -23,7 +23,7 @@ public class E1_MoveState : MoveState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if (isDetectingWall || isDetectingLedge)
+        if (isDetectingWall || !isDetectingGround)
         {
             enemy.idleState.SetFlipAfterIdle(true);
             finiteState.ChangeState(enemy.idleState);

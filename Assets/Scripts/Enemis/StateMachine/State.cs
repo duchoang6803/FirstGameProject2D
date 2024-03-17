@@ -9,7 +9,7 @@ public class State
 
     protected float startTime;
 
-    protected string animSetBoolName = "idle";
+    protected string animSetBoolName;
 
     // Tao ham Constructor de khoi tao gia tri ban dau
     public State(Entity entity, FiniteStateMachine finiteState, string animSetBoolName)

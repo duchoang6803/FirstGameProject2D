@@ -852,7 +852,7 @@ Transform:
   m_GameObject: {fileID: 430229349}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0025137712, y: -0, z: -0, w: 0.9999969}
-  m_LocalPosition: {x: 0.77, y: -2.9, z: 0.01}
+  m_LocalPosition: {x: 1.17, y: -2.9, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -905,7 +905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   entityData: {fileID: 11400000, guid: 6e0f3f8b20b14f945b7942e51c2f7837, type: 2}
   wallCheck: {fileID: 1442240809}
-  ledgeCheck: {fileID: 430229350}
+  groundCheck: {fileID: 430229350}
   idleStateData: {fileID: 11400000, guid: 2737cefb0bc108f4dabd73be722752d3, type: 2}
   moveStateData: {fileID: 11400000, guid: 2bd13fdae9bff1f42b81db10eb698d1b, type: 2}
 --- !u!1 &497149024
@@ -5745,6 +5745,7 @@ GameObject:
   - component: {fileID: 1881246439}
   - component: {fileID: 1881246437}
   - component: {fileID: 1881246436}
+  - component: {fileID: 1881246440}
   m_Layer: 7
   m_Name: Alive
   m_TagString: Enemy
@@ -5761,7 +5762,7 @@ Transform:
   m_GameObject: {fileID: 1881246434}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.24, y: 4, z: 0}
+  m_LocalPosition: {x: 0.47, y: 1.7, z: 0}
   m_LocalScale: {x: 1, y: 1.025, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5888,6 +5889,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1881246440
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881246434}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!1 &1883806676
 GameObject:
   m_ObjectHideFlags: 0
